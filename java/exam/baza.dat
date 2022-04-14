@@ -1,0 +1,296 @@
+1. W przypadku klas w Javie (1 poprawna):
+4
+a. Nie istnieje możliwość implementowania wielu interfejsów
+b. Nie istnieje możliwość dziedziczenia po wielu klasach bazowych
+c. Wszystkie metody klasy bazowej muszą być nadpisane w klasie potomnej
+d. Żadne z powyższych
+b
+
+2. W przypadku kolekcji TreeSet (1 poprawna):
+4
+a. Wyszukiwanie elementów cechuje się złożonością liniową O(n)
+b. Wyszukiwanie elementów cechuje się złożonością logarytmiczną O(log n)
+c. Wyszukiwanie elementów odbywa się w czasie stałym O(1)
+d. Dane mają postać par (klucz -> wartość)
+b
+
+3. Narzędzie Maven (2 poprawne):
+4
+a. Jest częścią środowiska Netbeans i nie może być wykorzystywane poza nim
+b. Automatycznie zarządza zależnościami projektu
+c. Wymaga od użytkownika dostarczenia wszystkich plików JAR stanowiących zależności projektu
+d. Ułatwia przenoszenie projektu pomiędzy różnymi komputerami i środowiskami programistycznymi
+bd
+
+4. Do strumieni znakowych (character streams) w bibliotece wejścia/wyjścia Javy należą (2 poprawne):
+4
+a. InputStream
+b. FileWriter
+c. BufferedReader
+d. BufferedInputStream
+bc
+
+5. W aplikacji internetowej opartej na frameworku Spring MVC (2 poprawne):
+4
+a. Transakcje nie są obsługiwane przez framework
+b. Adnotacja @Transactional umożliwia wykorzystanie transakcji
+c. Transakcja zostanie wycofana (rollback) w przypadku wystąpienia dowolnego wyjątku
+d. Transakcja zostanie wycofana (rollback) w przypadku wystąpienia wyjątku z hierarchii RuntimeException
+bd
+
+6. Wyrażenie lambda () -> { System.out.println("PT); } można przypisać do zmiennej typu (1 poprawna):
+4
+a. Comparable
+b. Runnable
+c. Comparator
+d. String
+b
+
+7. Testy jednostkowe (2 poprawne):
+4
+a. Gwarantują poprawność działania całej aplikacji
+b. Badają każdy komponent w izolacji od jego zależności
+c. Mogą być używane tylko dla komponentów, które nie posiadają zależności
+d. Wykorzystują obiekty-zaślepki (mock) w miejscu zależności testowanych komponentów
+bd
+
+8. W przypadku kolekcji implementującej interfejs Set (2 poprawne):
+5
+a. Kolejność elementów w kolekcji jest zawsze zgodna z kolejnością ich dodawania
+b. Elementy są zawsze posortowane w kolekcji
+c. W kolekcji mogą występować powtarzające się elementy
+d. Na pewno nie a, b i c
+e. W kolekcji nie mogą występować powtarzające się elementy. Interfejs set nie zawiera duplikatów.
+de
+
+9. Zaznacz możliwości, udostępniane przez biblioteki implementujące specyfikację JPA (2 poprawne):
+4
+a. Generowanie schematu bazy danych na podstawie klas encyjnych opatrzonych adnotacjami
+b. Serializacja obiektów encyjnych do formatu JSON lub XML
+c. Generowanie dokumentu XML na podstawie schematu bazy danych
+d. Generowanie klas encyjnych na podstawie schematu bazy danych
+ad
+
+10. Interfejsy funkcyjne (functional interfaces) w języku Java (1 poprawna):
+4
+a. Mogą posiadać dowolną liczbę metod wymagających zaimplementowania
+b. Muszą posiadać dokładnie jedną metodę wymagającą zaimplementowania
+c. Muszą posiadać implementacje domyślne dla wszystkich metod
+d. Nie występują - jest to element języka C#
+b
+
+11. W przypadku dziedziczenia (1 poprawna):
+4
+a. Istnieje możliwość implementowania wielu interfejsów
+b. Istnieje możliwość dziedziczenia po wielu klasach bazowych
+c. Słowo kluczowe master odwołuje się do klasy bazowej
+d. Słowo kluczowe base odwołuje się do klasy bazowej
+a
+
+12. W przypadku kolekcji implementujących interfejs List (1 poprawna):
+4
+a. Kolejność elementów w kolekcji jest zgodna z kolejnością ich dodawania
+b. Elementy są zawsze posortowane w kolekcji
+c. W kolekcji nie mogą występować powtarzające się elementy
+d. Dane mają postać par klucz -> wartość
+a
+
+13. JAXB pozwala na (2 poprawne):
+4
+a. Odczytywanie dokumentów XML
+b. Zapisywanie dokumentów XML
+c. Generowanie klas w języku Java na podstawie pliku XML
+d. Generowanie dokumentu .xsd na podstawie pliku XML
+ab
+
+14. Zaznacz poprawne konwencje kodowania dla języka Java (2 poprawne):
+4
+a. Nazwy metod i zmiennych zaczynamy duzą literą; każde kolejne słowo, składające się na nazwę, również zaczynamy dużą literą, np. int NazwaZmiennej
+b. Nazwy zmiennych zaczynamy małą literą; każde kolejne słowo, składające się na nazwę, zaczynamy dużą literą, np. int nazwaZmiennej
+c. Nazwy metody piszemy wyłącznie małymi literami, każde kolejne słowo oddzielamy podkreśleniem, np. nazwa_metody()
+d. Nazwy stałych piszemy wyłącznie wielkimi literami, kolejne słowa oddzielamy podkreśleniem, np. NAZWA_STAŁEJ
+bd
+
+15. Poprawne definicje wątków występujących w aplikacjach opartych o JavaFX to (1 poprawna):
+4
+a. Event Dispatch Thread - pozwala na modyfikację interfejsu użytkownika
+b. Media thread - renderowanie interfejsu poza obsługą zdarzeń, pozwala na renderowanie kolejnej ramki, gdy poprzednia jest synchronizowana
+c. JavaFX application thread - główny wątek aplikacji, wszystkie dostępy do wyświetlanej sceny muszą być zrealizowane w tym wątku
+d. Prism renderer thread - działa w tle, synchronizuje ramki za pomocą grafu sceny, wykorzystując JavaFX application thread
+c
+
+16. Zaznacz poprawne sformułowana na temat API Stream, wprowadzonego w wersji SE8 języka Java (2 poprawne):
+4
+a. Wyróżniamy strumienie sekwencyjne i równoległe
+b. Strumień można pozyskać z dowolnej kolekcji implementującej interfejs Collection
+c. W przypadku strumieni współbieżnych nie jest możliwe określenie liczby wątków, które będą przetwarzać elementy strumienia
+d. Przydatność API Stream jest ograniczona przez brak integracji z wyróżnieniami lambda
+ab
+
+17. Zaznacz poprawne sformułowania na temat Java Persistence API (2 poprawne):
+4
+a. Instancja klasy EntityManager nie powinna być wykorzystywana przez więcej niż jeden wątek
+b. Instancja klasy EntityManagerFactory nie powinna być wykorzystywane przez więcej niż jeden wątek
+c. Instancja klasy EntityManagerFactory może być bezpiecznie wykorzystywana przez wiele wątków równocześnie
+d. Instancja klasy EntityManager może być bezpiecznie wykorzystywane przez wiele wątków równocześnie
+ac
+
+18. Zaznacz poprawne sformułowania na temat wyrażeń lambda w języku Java (1 poprawna):
+4
+a. Wyróżniamy wyrażenia sekwencyjne i równoległe
+b. Wyrażenia lambda są zupełnie nowym mechanizmem w Javie SE8 i nie można zintegrować ich z kodem istniejącym przed wydaniem tej wersji języka
+c. Wyrażenia lambda można łatwo wprowadzić do istniejącego już kodu, o ile aplikacja będzie uruchamiana na maszynie wirtualnej w wersji SE8
+d. W obrębie wyrażenia lambda można odwoływać się do wszystkich zmiennych zdefiniowanych poza wyrażeniem
+c
+
+19. Jakiego typu są wyrażenia lambda, skoro Java należy do silnie typowanych języków? (1 poprawna)
+4
+a. Wszystkie wyrażenia są tego samego typu, który reprezentuje wbudowana klasa Lambda
+b. Każde wyrażenie lambda definiuje niejawnie własny typ, który jest znany tylko w czasie wykonania programu
+c. Wyrażenie jest typu interfejsu funkcyjnego, który implementuje
+d. Wyrażenia lambda nie są obiektami, więc nie posiadają typu
+c
+
+20. Typy kolekcji są reprezentowane przez następujące interfejsy (2 poprawne):
+4
+a. SortedMap
+b. ISet
+c. SortedSet
+d. LinkedList
+ac
+
+21. Właściwości wiązane, to takie które (1 poprawna):
+4 
+a. posiadają adnotację @Bounded
+b. nie należy modyfikować z poziomu kodu źródłowego, mogą być modyfikowane jedynie z poziomu interfejsu użytkownika
+c. są powiązane wyłącznie z jednym elementem interfejsu użytkownika
+d. wspierają informowanie o zmianach swego stanu
+d
+
+22. Modyfikację interfejsu użytkownika w bibliotece Swing należy wykonywać w (2 poprawne):
+4
+a. głównym wątku aplikacji
+b. event dispatch thread
+c. wątku obsługi zdarzeń
+d. worker thread
+bc
+
+23. Aby skorzystać z gniazdek połączeniowych (2 poprawne):
+4
+a. serwer musi nasłuchiwać przy pomocy klasy ServerSocket
+b. Java obsługuje jedynie gniazda bezpołączeniowe
+c. klient może wysyłać za pomocą klas Socket i MulticastSocket
+d. serwer musi nasłuchiwać przy pomocy klasy DatagramSocket
+ac
+
+24. Które zdania są prawdziwe w odniesieniu do obsługi gniazdek sieciowych (2 poprawne)?
+4
+a. Obiekt Socket reprezentuje tylko stronę serwerową połączenia
+b. Obiekt Socket reprezentuje dowolną stronę połączenia
+c. Obiekt Socket reprezentuje tylko stronę kliencką połączenia
+d. Obiekt ServerSocket pozwala na akceptowanie przychodzących połączeń
+bd
+
+25. Aby zaimplementować nowy wątek (3 poprawne):
+4
+a. w każdym przypadku zalecane jest dziedziczenie po klasie Thread
+b. można dziedziczyć po klasie Thread
+c. można implementować interfejs Runnable
+d. zalecana jest implementacja interfejsu Runnabe
+bcd
+
+26. Poprawne stwierdzenie dotyczące Java Beans to (2 poprawne):
+4
+a. mogą zawierać publiczne pola nie będące stałymi
+b. komponenty Java Bean muszą być serializowalne
+c. zawierają domyślny konstruktor bez parametrów (musi go posiadać)
+d. nie mogą zawierać konstruktorów sparametryzowanych
+bc
+
+27. Które z poniższych klas definiują podstawowe rodzaje (nie konkretne implementacje) kolekcji (2 poprawne)?
+4
+a. ArrayList
+b. HashSet
+c. Set
+d. List
+cd
+
+28. Które zdania są poprawne w odniesieniu do platformy Java (2 poprawne)?
+4
+a. Nieużywane (nie posiadające referencji) obiekty są usuwane automatycznie
+b. Kod bajtowy kompilowany jest do kodu natywnego w czasie budowania
+c. Programista musi zadbać o usuwanie nieużywanych (nie posiadających referencji) obiektów
+d. Kod bajtowy kompilowany jest do kodu natywnego w czasie wykonania
+ad
+
+29. Które zdania są poprawne w odniesieniu do spójności metod Object#equals i Object#hashCode (2 poprawne)?
+4
+a. Jeśli metoda equals zwraca false to wartości hashCode powinny (nie muszą) być różne
+b. Jeśli metoda equals zwraca true to wartości hashCode muszą być takie same
+c. Jeśli metoda equals zwraca false to wartości hashCode muszą być różne
+d. Jeśli metoda equals zwraca true to wartości hashCode powinny (nie muszą) być takie same
+ab
+
+30. Które zdania są prawdziwe w odniesieniu do tworzenia nowego wątku (2 poprawne)?
+4
+a. Zaleca się implementacja interfejsu Runnable w celu implementacji zadania do wykonania
+b. Zaleca się wykorzystanie obiektu Thread do uruchomienia nowego wątku
+c. Zaleca się wykorzystanie obiektu Runnable do uruchomienia nowego wątku
+d. Zaleca się dziedziczenie po klasie Thread w celu implementacji zadania do wykonania
+ab
+
+31. Które zdanie opisuje wykonanie współbieżne procesów (1 poprawna)?
+4
+a. Akcje są wykonywane w tym samym czasie na kilku procesorach (lub rdzeniach)
+b. Procesy nie mogą być wykonywane współbieżnie
+c. Poszczególne akcje procesu są wykonywane jedna po drugiej, kolejna akcja rozpoczyna się po zakończeniu poprzedniej
+d. Kolejna akcja może rozpocząć się przed zakończeniem poprzedniej, akcje mogą być wykonywane w tym samym czasie lub z przeplotem (procesor przełącza się pomiędzy różnymi akcjami)
+d
+
+32. Które zdania są poprawne w odniesieniu do przygotowania głównej metody (wejście programu)? (2 poprawne)
+4
+a. Typy argumentów głównej metody są narzucone z góry
+b. Nazwa głównej klasy jest narzucona z góry
+c. Nazwy argumentów głównej metody są narzucone z góry
+d. Nazwa głównej metody jest narzucona z góry
+ad
+
+33. Które zdania są prawdziwe w odniesieniu do obsługi sekcji krytycznej (2 poprawne)?
+4
+a. Metoda Object#wait nie blokuje sekcji krytycznej
+b. Metoda Thread.sleep blokuje sekcję krytyczną
+c. Metoda Thread.sleep nie blokuje sekcji krytycznej
+d. Metoda Object#wait blokuje sekcję krytyczną
+ab
+
+34. Które z wymienionych implementacji strumieniu definiują źródło/cel danych, a nie sposób odczytu/zapisu danych (2 poprawne)?
+4
+a. FileInputStream , FileOutputStream
+b. SocketInputStream , SocketOutputStream
+c. ObjectInputStream , ObjectOutputStream
+d. BufferedInputStream , BufferedOutputStream
+ab
+
+35. W jakich stanach obiekt encyjny jest związany kontekstem trwałości (persistence)? (2 poprawne)
+4
+a. removed
+b. detached
+c. managed
+d. new
+ac
+
+36. Do standardowych strumieni znakowych należą (2 poprawne):
+4
+a. PrintWriter
+b. MemoryWriter
+c. InputStream
+d. BufferedReader
+ad
+
+37. Poprawne stwierdzenia dotyczące kolekcji to (1 poprawna):
+4
+a. Aby zapewnić automatyczne sortowanie elementów kolekcji, muszą one implementować interfejs Comparable
+b. Elementy kolekcji można usuwać podczas przeglądania za pomocą pętli foreach
+c. Podczas przeglądania kolekcji iteratorem można go wykorzystać do usuwania elementów
+d. Aby zapewnić automatyczne sortowanie elementów kolekcji, muszą one implementować interfejs Comparator
+c
