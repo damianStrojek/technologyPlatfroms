@@ -80,11 +80,12 @@ void wypisz_baze(vector<CPytanie>& pytania) {
 	}
 }
 
-int main(int argc, char* argv[]){
+int main(int argc, char* argv[]) {
+	cout << "FOR THIS TESTER TO WORK YOU NEED TO SAVE .TXT FILE WITH ANSI ENCODING\n";
 	cout << "Tester ver 1.1" << endl;
 	cout << "Lemm @ 2012 in association with DS @ 2022" << endl;
 	vector<CPytanie> pytania;
-	ifstream plik("baza.dat", ifstream::in);
+	ifstream plik("baza2.txt", ifstream::in);
 	string temp, odp, ver;
 	int lpytan;
 
@@ -109,7 +110,6 @@ int main(int argc, char* argv[]){
 				nowe.Poprawna(odp);
 				pytania.push_back(nowe);
 			}
-
 		}
 	}
 
