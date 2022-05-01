@@ -34,16 +34,5 @@ namespace Lab_1 {
 			foreach (DiskElement e in children)
 				e.Print(depth + 1);
 		}
-
-		public IDictionary<string, int> GetCollection(IComparer<string> cmp){
-			SortedDictionary<string, int> sd = new SortedDictionary<string, int>(cmp);
-			foreach (var child in children){
-				if (child.GetType() == typeof(DirectoryInfo))
-					sd.Add(child.File.Name, ((DirectoryInfo)child.File).GetFileSystemInfos().Length);
-				else if (child.GetType() == typeof(FileInfo))
-					sd.Add(child.File.Name, (int)((FileInfo)child.File).Length);
-			}
-			return sd;
-		}
 	}
 }
